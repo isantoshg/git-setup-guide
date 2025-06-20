@@ -28,6 +28,9 @@ git branch -M main
 # Connect to GitHub repository
 git remote add origin https://github.com/isantoshg/Git-Config-setup.git
 
+# First pull and rebase remote changes
+git pull origin main --rebase
+
 # Push the first commit to GitHub
 git push -u origin main
 ```
