@@ -36,8 +36,20 @@ git push -u origin main
 ```
 
 ---
+---
 
-## 🔹 Step 2: Making Changes and Committing
+## 🔹 Step 2: add chagnes Main Branch
+
+```bash
+git pull origin main
+git add .
+git commit -m "add your message"
+git push origin main
+
+```
+
+---
+## 🔹 Step 3: Making Changes and Committing
 
 ```bash
 # Add all modified/new files
@@ -52,7 +64,7 @@ git commit -m "meaningful commit message"
 
 ---
 
-## 🔹 Step 3: Push Changes to GitHub
+## 🔹 Step 4: Push Changes to GitHub
 
 ```bash
 git push origin main
